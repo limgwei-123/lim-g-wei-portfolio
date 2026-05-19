@@ -5,6 +5,10 @@ export type Project = {
   techStack: string[];
   liveDemo?: string;
   github?: string;
+  links?: {
+    label: string;
+    href: string;
+  }[];
   note?: string;
 };
 
@@ -29,6 +33,12 @@ export const projects: Project[] = [
     ],
     liveDemo: "https://lifelikegame.vercel.app/",
     github: "https://github.com/limgwei-123/lifelikegame",
+    links: [
+      {
+        label: "YouTube Demo",
+        href: "https://youtu.be/Icc7M7hgYeo?si=hUDtDA6P0QRjJ_oj",
+      },
+    ],
   },
   {
     name: "OpenLearning Course Assistant",

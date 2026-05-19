@@ -61,6 +61,17 @@ export function Projects() {
                     GitHub
                   </a>
                 ) : null}
+                {project.links?.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-md border border-white/15 px-4 py-2 text-sm font-semibold text-white transition hover:border-skyline hover:text-skyline"
+                  >
+                    {link.label}
+                  </a>
+                ))}
               </div>
             </article>
           ))}

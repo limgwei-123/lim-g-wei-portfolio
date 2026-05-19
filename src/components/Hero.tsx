@@ -1,7 +1,11 @@
 const socialLinks = [
   { label: "GitHub", href: "https://github.com/limgwei-123" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/g-wei-lim-1385a8204" },
-  { label: "Resume", href: "#" },
+  {
+    label: "Resume",
+    href: "/Lim_G_Wei_Resume.docx",
+    download: "Lim_G_Wei_Resume.docx",
+  },
 ];
 
 export function Hero() {
@@ -34,6 +38,7 @@ export function Hero() {
                 href={link.href}
                 target={link.href.startsWith("http") ? "_blank" : undefined}
                 rel={link.href.startsWith("http") ? "noreferrer" : undefined}
+                download={link.download}
                 className="rounded-md border border-white/15 px-5 py-3 text-sm font-semibold text-white transition hover:border-skyline hover:text-skyline"
               >
                 {link.label}
