@@ -63,17 +63,23 @@ export const projects: Project[] = [
     note: "Private project. Details are summarized without exposing sensitive data.",
   },
   {
-    name: "EEG Drowsiness Detection",
+    name: "An interpretable Multi-channel CNN for EEG-Based driver drowsiness detection",
     subtitle: "CNN-Based EEG Classification Research",
     description:
-      "A deep learning research project for cross-subject EEG-based drowsiness detection using CNN models, multi-channel EEG signals, and LOSO cross-validation.",
+      "A deep learning research project for cross-subject EEG-based drowsiness detection using CNN models, multi-channel EEG signals, and LOSO cross-validation. Attention and CAM use to visualize project",
     techStack: [
-      "Python",
-      "PyTorch",
+      "Attention module",
+      "CAM visualization",
       "CNN",
       "EEG",
       "LOSO Cross-Validation",
       "Model Evaluation",
+    ],
+    links: [
+      {
+        label: "GitHub Demo",
+        href: "https://github.com/limgwei-123/interpretability-drowsiness-model",
+      },
     ],
   },
 ];

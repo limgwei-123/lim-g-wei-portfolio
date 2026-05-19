@@ -61,7 +61,7 @@ export function Projects() {
                     GitHub
                   </a>
                 ) : null}
-                {project.links?.map((link) => (
+                {project.links?.filter((link) => link.href).map((link) => (
                   <a
                     key={link.href}
                     href={link.href}
