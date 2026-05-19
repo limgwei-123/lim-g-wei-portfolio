@@ -77,7 +77,7 @@ export const projects: Project[] = [
     ],
     links: [
       {
-        label: "GitHub Demo",
+        label: "GitHub",
         href: "https://github.com/limgwei-123/interpretability-drowsiness-model",
       },
     ],
