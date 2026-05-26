@@ -19,7 +19,9 @@ export const skillCategories: SkillCategory[] = [
     category: "AI / ML",
     skills: [
       "Gemini API",
+      "LangGraph",
       "LLM Integration",
+      "RAG",
       "Prompt Engineering",
       "CNN",
       "Computer Vision",
