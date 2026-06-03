@@ -17,7 +17,7 @@ export const projects: Project[] = [
     name: "Lifelikegame",
     subtitle: "AI-Powered Gamified Goal Management Platform",
     description:
-      "A full-stack gamified life management application that helps users turn personal goals into scheduled tasks, daily task instances, points, rewards, and AI-generated action plans.(Frontend fully build from vibe coding with React)",
+      "A full-stack gamified life management application that helps users turn personal goals into scheduled tasks, daily task instances, points, rewards, and AI-generated action plans.(Frontend fully build from vibe coding with React)\n\nNote: Free hosting may take up to 1 minute to wake up on first request.",
     techStack: [
       "React",
       "TypeScript",
