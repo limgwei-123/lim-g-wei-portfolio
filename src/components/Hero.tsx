@@ -3,8 +3,8 @@ const socialLinks = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/g-wei-lim-1385a8204" },
   {
     label: "Resume",
-    href: "/Lim_G_Wei_Resume.docx",
-    download: "Lim_G_Wei_Resume.docx",
+    href: "/Lim_G_Wei_Resume.pdf",
+    download: "Lim_G_Wei_Resume.pdf",
   },
 ];
 
