@@ -42,6 +42,29 @@ export const projects: Project[] = [
     ],
   },
   {
+    name: "Nutrition AI",
+    subtitle: "AI-Powered Nutrition Retrieval and Calorie Estimation System",
+    description:
+      "A full-stack AI nutrition analysis application that estimates calories from food text input using Gemini embeddings, pgvector similarity search, and a PostgreSQL-based food knowledge base. The system records prediction results, latency, confidence, feedback, and monitoring metrics to support evaluation and production-style AI observability. Frontend and backend foundation were built with vibe coding, while the AI retrieval, pgvector, logging, and evaluation workflow were implemented manually.",
+    techStack: [
+      "pgvector",
+      "Logging",
+      "Evaluation",
+      "SQLAlchemy",
+      "Python",
+      "RAG",
+    ],
+    github: "https://github.com/limgwei-123/nutrition_ai",
+    note:
+      "MVP currently supports one food item per text input. Image upload and multi-food portion estimation are planned future improvements.",
+    links: [
+      {
+        label: "YouTube Demo",
+        href: "https://www.youtube.com/watch?v=_R1zZcrbVz8",
+      },
+    ],
+  },
+  {
     name: "OpenLearning Course Assistant",
     subtitle: "Multimodal AI Education Assistant",
     description:
